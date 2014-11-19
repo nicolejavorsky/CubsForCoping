@@ -1,0 +1,93 @@
+/* Extra small devices Phones ----------- */
+@media only screen (max-width: 768px) {
+
+	body {
+		background-image: url('NicolePic6.jpg');
+	}
+	#pagewrap {
+		max-width: auto;
+	}
+
+	#image {
+		max-height: 60%;
+	}
+
+	.content {
+		width: 70%;
+		padding: 3% 4%;
+		position: relative;
+	}
+
+	#sidebar {
+		width: 30%;
+	}
+
+}
+
+
+/* Small devices Tablets ----------- */
+@media only screen (min-width: 768px) (max-width: 992px) {
+
+	#pagewrap {
+		max-width: auto;
+	}
+
+	#image {
+		max-height: 60%;
+	}
+
+	.content {
+		width: 70%;
+		padding: 3% 4%;
+		position: relative;
+	}
+
+	#sidebar {
+		width: 30%;
+	}
+
+}
+
+/* Medium devices ----------- */
+@media only screen (min-width: 992px) (max-width: 1200px) {
+
+	#pagewrap {
+		max-width: auto;
+	}
+
+	#image {
+		max-height: 60%;
+	}
+
+	.content {
+		width: 70%;
+		padding: 3% 4%;
+		position: relative;
+	}
+
+	#sidebar {
+		width: 30%;
+	}
+}
+
+/* Large devices ----------- */
+@media only screen (min-width: 1200px) {
+
+	#pagewrap {
+		max-width: auto;
+	}
+
+	#image {
+		max-height: 60%;
+	}
+
+	.content {
+		width: 70%;
+		padding: 3% 4%;
+		position: relative;
+	}
+
+	#sidebar {
+		width: 30%;
+	}
+}
