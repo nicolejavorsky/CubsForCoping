@@ -1,11 +1,8 @@
 /* Extra small devices Phones ----------- */
 @media only screen (max-width: 768px) {
 
-	body {
-		background-image: url('NicolePic6.jpg');
-	}
 	#pagewrap {
-		max-width: auto;
+		max-width: 100%;
 	}
 
 	#image {
@@ -20,6 +17,10 @@
 
 	#sidebar {
 		width: 30%;
+	}
+
+	section {
+		max-height: 480px;
 	}
 
 }
@@ -29,7 +30,7 @@
 @media only screen (min-width: 768px) (max-width: 992px) {
 
 	#pagewrap {
-		max-width: auto;
+		max-width: 100%;
 	}
 
 	#image {
@@ -44,6 +45,11 @@
 
 	#sidebar {
 		width: 30%;
+	}
+
+	section {
+		min-height: 480px;
+		max-height: 620px;
 	}
 
 }
@@ -52,7 +58,7 @@
 @media only screen (min-width: 992px) (max-width: 1200px) {
 
 	#pagewrap {
-		max-width: auto;
+		max-width: 100%;
 	}
 
 	#image {
@@ -67,6 +73,11 @@
 
 	#sidebar {
 		width: 30%;
+	}
+
+	section {
+		min-height: 620px;
+		max-height: 750px;
 	}
 }
 
