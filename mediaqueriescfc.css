@@ -85,7 +85,7 @@
 @media only screen (min-width: 1200px) {
 
 	#pagewrap {
-		max-width: auto;
+		max-width: 100%;
 	}
 
 	#image {
@@ -100,5 +100,9 @@
 
 	#sidebar {
 		width: 30%;
+	}
+
+	section {
+		min-height: 750px;
 	}
 }

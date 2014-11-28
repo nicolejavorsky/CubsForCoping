@@ -53,6 +53,17 @@ a:active {
 	z-index: 20;
 }
 
+/*#aboutcontent {
+	padding: 10px;
+	color: black;
+	width: 90%;
+	float: center;
+	background-color: #666699;
+	opacity: 0.7;
+	position: relative;
+	top: 75px;
+}*/
+
 #storycontent {
 	padding: 10px;
 	color: black;
