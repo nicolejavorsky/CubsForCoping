@@ -100,7 +100,7 @@ a:active {
 	padding: 10px;
 	font-size: 64px;
 	color: black;
-	opacity: 0.9;
+	opacity: 0.7;
 	width: 90%;
 	position: relative;
 	top: 50px;
@@ -136,4 +136,21 @@ section {
 
 #Donate {
 	background-image: url('WrappedBears.jpg');
+}
+
+#Contact {
+	background-image: url('WinthropPic.jpg');
+}
+
+.nobullet li {
+	list-style-type: none;
+	background-color: white;
+	opacity: 0.9;
+	width: 35%;
+	padding: 10px;
+}
+
+.nobullet {
+	position: relative;
+	top: 25px;
 }
